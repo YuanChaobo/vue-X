@@ -1,0 +1,48 @@
+/*
+* @Author: 苑超波
+* @Date:   2019-01-16 10:45:14
+* @Last Modified by:   Yuan
+* @Last Modified time: 2019-01-18 09:59:36
+*/
+html,body,table,td,th,ul,li,ol,dl,dt,dd,a,div,p,span,i,button,img,header,footer,section,h1,h2,h3,h4,h5{
+	margin:0;
+	padding:0;
+}
+a{
+	text-decoration: none;
+	-webkit-tap-highlight-color:transparent;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    tap-highlight-color: rgba(0, 0, 0, 0);
+}
+img{
+	border:none;
+}
+ol,li,ul{
+	list-style: none;
+}
+i{
+	font-style: normal;
+}
+button{
+	border:none;
+	outline: none;
+	-webkit-tap-highlight-color:transparent;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    tap-highlight-color: rgba(0, 0, 0, 0);
+
+}
+input{
+	border:none;
+	outline-style: none;
+	-webkit-tap-highlight-color:transparent;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.flex-box{
+	display: flex;
+	display: -webkit-flex;
+	display: flex-box;
+}
+.number{
+	font-family: 'Helvetica';
+}
